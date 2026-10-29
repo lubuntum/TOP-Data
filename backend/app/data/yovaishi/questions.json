@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "text": "Вопрос Йовайши 1",
+      "options": [
+        { "id": 1, "text": "Вариант А", "isPicked": false, "type": "people" },
+        { "id": 2, "text": "Вариант Б", "isPicked": false, "type": "art" },
+        { "id": 3, "text": "Вариант В", "isPicked": false, "type": "econ" }
+      ],
+      "userAnswer": 0
+    }
+  ]
+}

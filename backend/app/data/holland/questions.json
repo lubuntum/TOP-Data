@@ -1,0 +1,802 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Инженер-технолог",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Инженер-конструктор",
+          "isPicked": false,
+          "type": "realistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 2,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Электрорадиотехник",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Врач-терапевт",
+          "isPicked": false,
+          "type": "investigative"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 3,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Оператор станков с ЧПУ",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Кодировщик",
+          "isPicked": false,
+          "type": "conventional"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 4,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Фотограф",
+          "isPicked": false,
+          "type": "artistic"
+        },
+        {
+          "id": 2,
+          "text": "Коммерсант",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 5,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Спасатель МЧС",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Дизайнер",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 6,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Политолог",
+          "isPicked": false,
+          "type": "social"
+        },
+        {
+          "id": 2,
+          "text": "Психиатр",
+          "isPicked": false,
+          "type": "investigative"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 7,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Учёный-химик",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Бухгалтер",
+          "isPicked": false,
+          "type": "conventional"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 8,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Философ",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Частный предприниматель",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 9,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Лингвист",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Модельер",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 10,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Инспектор службы занятости",
+          "isPicked": false,
+          "type": "social"
+        },
+        {
+          "id": 2,
+          "text": "Статист",
+          "isPicked": false,
+          "type": "conventional"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 11,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Социальный педагог",
+          "isPicked": false,
+          "type": "social"
+        },
+        {
+          "id": 2,
+          "text": "Биржевой маклер",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 12,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Тренер",
+          "isPicked": false,
+          "type": "social"
+        },
+        {
+          "id": 2,
+          "text": "Искусствовед",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 13,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Нотариус",
+          "isPicked": false,
+          "type": "conventional"
+        },
+        {
+          "id": 2,
+          "text": "Менеджер",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 14,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Перфораторщик",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Художник",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 15,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Лидер политической партии",
+          "isPicked": false,
+          "type": "enterprising"
+        },
+        {
+          "id": 2,
+          "text": "Писатель",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 16,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Закройщик",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Метеоролог",
+          "isPicked": false,
+          "type": "investigative"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 17,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Водитель",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Работник пресс-службы",
+          "isPicked": false,
+          "type": "social"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 18,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Чертежник",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Риэлтор",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 19,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Специалист по ремонту компьютеров",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Секретарь-референт",
+          "isPicked": false,
+          "type": "conventional"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 20,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Микробиолог",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Психолог",
+          "isPicked": false,
+          "type": "social"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 21,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Видеооператор",
+          "isPicked": false,
+          "type": "artistic"
+        },
+        {
+          "id": 2,
+          "text": "Режиссёр",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 22,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Экономист",
+          "isPicked": false,
+          "type": "conventional"
+        },
+        {
+          "id": 2,
+          "text": "Провизор",
+          "isPicked": false,
+          "type": "investigative"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 23,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Зоолог",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Главный инженер",
+          "isPicked": false,
+          "type": "realistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 24,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Программист",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Архитектор",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 25,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Работник инспекции по делам несовершеннолетних",
+          "isPicked": false,
+          "type": "social"
+        },
+        {
+          "id": 2,
+          "text": "Коммивояжер",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 26,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Преподаватель",
+          "isPicked": false,
+          "type": "social"
+        },
+        {
+          "id": 2,
+          "text": "Биржевой маклер",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 27,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Воспитатель",
+          "isPicked": false,
+          "type": "social"
+        },
+        {
+          "id": 2,
+          "text": "Декоратор",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 28,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Реставратор",
+          "isPicked": false,
+          "type": "artistic"
+        },
+        {
+          "id": 2,
+          "text": "Зав. отделом предприятия",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 29,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Корректор",
+          "isPicked": false,
+          "type": "conventional"
+        },
+        {
+          "id": 2,
+          "text": "Литератор и кинокритик",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 30,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Фермер",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Визажист",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 31,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Парикмахер",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Социолог",
+          "isPicked": false,
+          "type": "social"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 32,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Экспедитор",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Редактор",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 33,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Ветеринар",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Директор (финансовый)",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 34,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Автомеханик",
+          "isPicked": false,
+          "type": "realistic"
+        },
+        {
+          "id": 2,
+          "text": "Стилист",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 35,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Археолог",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Эксперт",
+          "isPicked": false,
+          "type": "investigative"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 36,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Библиограф",
+          "isPicked": false,
+          "type": "conventional"
+        },
+        {
+          "id": 2,
+          "text": "Корреспондент",
+          "isPicked": false,
+          "type": "social"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 37,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Эколог",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Актёр",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 38,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Логопед",
+          "isPicked": false,
+          "type": "social"
+        },
+        {
+          "id": 2,
+          "text": "Контролёр",
+          "isPicked": false,
+          "type": "conventional"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 39,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Адвокат",
+          "isPicked": false,
+          "type": "enterprising"
+        },
+        {
+          "id": 2,
+          "text": "Директор (глава АО)",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 40,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Кассир",
+          "isPicked": false,
+          "type": "conventional"
+        },
+        {
+          "id": 2,
+          "text": "Продюсер",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 41,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Поэт, писатель",
+          "isPicked": false,
+          "type": "artistic"
+        },
+        {
+          "id": 2,
+          "text": "Продавец",
+          "isPicked": false,
+          "type": "enterprising"
+        }
+      ],
+      "userAnswer": 0
+    },
+    {
+      "id": 42,
+      "text": "Выберите профессию, которая больше нравится",
+      "options": [
+        {
+          "id": 1,
+          "text": "Криминалист (баллистик)",
+          "isPicked": false,
+          "type": "investigative"
+        },
+        {
+          "id": 2,
+          "text": "Композитор",
+          "isPicked": false,
+          "type": "artistic"
+        }
+      ],
+      "userAnswer": 0
+    }
+  ]
+}

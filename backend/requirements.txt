@@ -1,0 +1,21 @@
+# FastAPI framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Database (Async SQLite for dev; switch to PostgreSQL later)
+sqlalchemy[asyncio]==2.0.25
+aiosqlite==0.19.0
+
+# Validation & Settings
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1  # pin: passlib 1.7.4 is incompatible with bcrypt 4.1+
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+httpx==0.26.0

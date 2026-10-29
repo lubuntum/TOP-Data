@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "text": "Вопрос Карты интересов 1",
+      "direction": 1,
+      "options": [
+        { "id": 1, "text": "Очень нравится", "type": "veryPositive" },
+        { "id": 2, "text": "Нравится", "type": "positive" },
+        { "id": 3, "text": "Не знаю", "type": "neutral" },
+        { "id": 4, "text": "Не нравится", "type": "negative" },
+        { "id": 5, "text": "Очень не нравится", "type": "veryNegative" }
+      ],
+      "userAnswer": 0
+    }
+  ]
+}
