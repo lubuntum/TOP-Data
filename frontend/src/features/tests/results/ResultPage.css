@@ -1,0 +1,74 @@
+
+.result-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--color-surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+}
+
+.result-header {
+    background: var(--color-bg);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+.result-type{ 
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: 800;
+}
+.result-body {
+    padding: 2rem;
+}
+.result-section {
+    margin-bottom: 2rem;
+}
+.result-section:last-child {
+    margin-bottom: 0;
+}
+.section-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.professions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+.profession-tag {
+    background: #eff6ff;
+    color: var(--color-primary-hover);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.famous-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.famous-item {
+    background: var(--color-bg);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    border-left: 4px solid #f59e0b;
+    font-weight: 500;
+}
+.result-actions {
+    padding: 2rem;
+    border-top: 1px solid var(--color-border);
+    display: flex;
+    justify-content: center;
+}

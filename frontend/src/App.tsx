@@ -6,6 +6,8 @@ import { Profile } from './features/profile/Profile';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { ProtectedRoute, PublicRoute } from './routes/Routes';
 import { Tests } from './features/tests/Tests';
+import { TestEngine } from './features/tests/engine/TestEngine';
+import { ResultPage } from './features/tests/results/ResultPage';
 
 const AppContent = () => {
   const {user, logout} = useAuth()
@@ -52,6 +54,8 @@ const AppContent = () => {
           <Route element={<ProtectedRoute/>}>
             <Route path='/profile' element={<Profile/>}/>
             <Route path="/tests" element={<Tests />} />
+            <Route path='/test/:testCode' element={<TestEngine/>} />
+            <Route path='/result/:resultId' element={<ResultPage/>} />
           </Route>
               
           <Route path="/" element={<Navigate to="/profile" replace />} />
