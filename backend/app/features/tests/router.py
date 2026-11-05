@@ -9,6 +9,7 @@ from app.core.database.entities.user_entity import UserEntity
 from app.core.dependencies import get_current_user
 from app.features.tests import service
 from app.features.tests.dto import TestSubmitResponseDTO, TestSubmitRequestDTO
+from app.features.tests.service import get_result_by_id
 
 router = APIRouter(prefix="/tests", tags=["Tests"])
 @router.get("/{test_code}/description")
@@ -40,6 +41,16 @@ async def get_my_results(
         db: Annotated[AsyncSession, Depends(get_db)]
 ):
     return await service.get_user_results(db, current_user.id)
+@router.get("/results/{result_id}")
+async def get_result(
+        result_id: int,
+        current_user: Annotated[UserEntity, Depends(get_current_user)],
+        db: Annotated[AsyncSession, Depends(get_db)]
+):
+    try:
+        return await get_result_by_id(db, result_id, current_user.id)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
 @router.post("/submit", response_model=TestSubmitResponseDTO, status_code=status.HTTP_201_CREATED)
 async def submit_test(
         data: TestSubmitRequestDTO,
@@ -54,3 +65,10 @@ async def submit_test(
                                      computed_scores=result.computed_scores)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+@router.get("/available")
+async def get_available_tests(
+        current_user: Annotated[UserEntity, Depends(get_current_user)],
+        db: Annotated[AsyncSession, Depends(get_db)]
+):
+    return await service.get_available_tests(db, current_user.id)

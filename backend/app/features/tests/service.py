@@ -66,3 +66,43 @@ async def get_user_results(db: AsyncSession, user_id: int) -> list[dict]:
             "created_at": r.created_at
         } for r in results
     ]
+
+async def get_result_by_id(db: AsyncSession, result_id: int, user_id: int) -> dict:
+    stmt = select(TestResultEntity).where(
+        TestResultEntity.id == result_id,
+        TestResultEntity.user_id == user_id
+    )
+    result = await db.scalar(stmt)
+    if not result:
+        raise ValueError("Results not found")
+    return {
+        "result_id": result.id,
+        "test_code": result.test_code,
+        "computed_scores": result.computed_scores,
+        "created_at": result.created_at
+    }
+async def get_available_tests(db: AsyncSession, user_id: int) -> list[dict]:
+    available_tests = []
+    if not DATA_DIR.exists():
+        return []
+    for folder in DATA_DIR.iterdir():
+        if folder.is_dir():
+            test_code = folder.name
+            desc_file = folder / "description.json"
+            if desc_file.exists():
+                with open(desc_file, "r", encoding="UTF-8") as f:
+                    desc_data = json.load(f)
+                stmt = select(TestResultEntity).where(
+                    TestResultEntity.user_id == user_id,
+                    TestResultEntity.test_code == test_code
+                )
+                result = await db.scalar(stmt)
+                available_tests.append({
+                    "test_code": test_code,
+                    "title": desc_data.get("title", "No name"),
+                    "summary": desc_data.get("summary", ""),
+                    "time_hint": desc_data.get("timeHint", ""),
+                    "is_completed": result is not None,
+                    "result_id": result.id if result else None
+                })
+    return available_tests
