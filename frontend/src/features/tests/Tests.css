@@ -1,0 +1,88 @@
+
+.tests-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.test-card {
+    background: var(--color-surface);
+    border: 1px splid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.test-card:hover{
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+/*styles for completed tests*/
+.test-card.completed {
+    border-color: #10b981;
+    background: #f0fdf4;
+}
+.test-card-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+.test-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    margin-bottom: 0.25rem;
+}
+.test-time {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+}
+.test-summary{
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    flex-grow: 1; /*Forec to place button to down*/
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+.btn-start {
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn-start:hover{
+    background: var(--color-primary-hover);
+}
+.btn-result {
+    width: 100%;
+    padding: 0.75rem;
+    color: white;
+    background: var(--color-secondary);
+    border: none;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn-result:hover { background: #059669; }
+.btn-disabled {
+    width: 100%;
+    padding: 0.75rem;
+    background: #e2e8f0;
+    color: #94a3b8;
+    border: none;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    cursor: not-allowed;
+}
