@@ -1,17 +1,5779 @@
 {
-  "data": [
-    {
-      "id": 1,
-      "text": "Вопрос Карты интересов 1",
-      "direction": 1,
-      "options": [
-        { "id": 1, "text": "Очень нравится", "type": "veryPositive" },
-        { "id": 2, "text": "Нравится", "type": "positive" },
-        { "id": 3, "text": "Не знаю", "type": "neutral" },
-        { "id": 4, "text": "Не нравится", "type": "negative" },
-        { "id": 5, "text": "Очень не нравится", "type": "veryNegative" }
-      ],
-      "userAnswer": 0
-    }
-  ]
+    "data": [
+        {
+            "id": 1,
+            "text": "Проводить опыты по химии? Участвовать в олимпиадах по химии и физике?",
+            "direction": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 2,
+            "text": "Разрабатывать новые лекарственные препараты, создавать пересаживаемые ткани и органы для человека и животных?",
+            "direction": 2,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 3,
+            "text": "Разрабатывать программы профилактики и развития здоровья?",
+            "direction": 3,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 4,
+            "text": "Заниматься посадками растений в грунт, выращиванием свежего лука, укропа и другой зелени?",
+            "direction": 4,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 5,
+            "text": "Что-либо шить, приводить в порядок одежду?",
+            "direction": 5,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 6,
+            "text": "Заниматься техникой, химией, физикой?",
+            "direction": 6,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 7,
+            "text": "Ставить опыты на занятиях по физике, химии и технологии, где вырабатывается электрический ток?",
+            "direction": 7,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 8,
+            "text": "Заниматься в кружке, секции, где работают с металлом?",
+            "direction": 8,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 9,
+            "text": "Углубляться в знаниях и навыках в области техники, химии, физики?",
+            "direction": 9,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 10,
+            "text": "Играть «лего» и аналогичными конструкторами?",
+            "direction": 10,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 11,
+            "text": "Моделировать машинки, собирать детали конструктора, создавать моторчики для них?",
+            "direction": 11,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 12,
+            "text": "Смотреть фильмы и мультфильмы, где действие происходит в космическом пространстве, на космическом корабле, на космической станции? Например, «Тайна третьей планеты», «Звёздные войны», «Вавилон-5» и т.п",
+            "direction": 12,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 13,
+            "text": "Смотреть фильмы, сериалы, в которых действие разворачивается в поезде или связано с автомобилями?",
+            "direction": 13,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 14,
+            "text": "Смотреть фильмы, в которых сюжет закручен вокруг авиации?",
+            "direction": 14,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 15,
+            "text": "Смотреть фильмы, в которых действие происходит на кораблях или связано с движением по воде?",
+            "direction": 15,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 16,
+            "text": "Работать с компьютерными программами, алгоритмами?",
+            "direction": 16,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 17,
+            "text": "Анализировать информацию математического и экономического характера и принимать важные решения на основе этого анализа?",
+            "direction": 17,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 18,
+            "text": "Изучать историю военных битв? Например, Ледовое побоище или Куликовская битва",
+            "direction": 18,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 19,
+            "text": "Участвовать в разработке уставов, положений, нормативных документов для школы, спортшколы или других учреждений в целях обеспечения безопасности внутри этих учреждений (разрабатывать правила для участников)?",
+            "direction": 19,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 20,
+            "text": "Петь, танцевать, выступать на сцене в какой-либо роли?",
+            "direction": 20,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 21,
+            "text": "Анализировать различные паблики, количество подписчиков, прирост, интересы аудитории?",
+            "direction": 21,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 22,
+            "text": "Создавать продукты для детей?",
+            "direction": 22,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 23,
+            "text": "Объяснять одноклассникам, как выполнять учебное задание?",
+            "direction": 23,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 24,
+            "text": "Изучать новые языки, говорить на других языках?",
+            "direction": 24,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 25,
+            "text": "Оказывать помощь в самореализации пожилым, инвалидам, мигрантам и пр. категориям граждан? Помогать им адаптироваться в обществе?",
+            "direction": 25,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 26,
+            "text": "Работать с микроскопом, изучать своими глазами микрочастицы?",
+            "direction": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 27,
+            "text": "В первую очередь заниматься сохранением экологии в жизни человека; организовывать жизнь людей с фокусировкой на экологичности?",
+            "direction": 2,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 28,
+            "text": "Анализировать физическое состояние здоровья человека, делать выводы и давать рекомендации для сохранения и развития его здоровья?",
+            "direction": 3,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 29,
+            "text": "Заниматься посадками растений в грунт, разработкой ландшафтных композиций в разных климатических зонах?",
+            "direction": 4,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 30,
+            "text": "Модернизировать вещи? Например, сделать из старых джинс рваные, а из обычных кроссовок - сделать яркие и трендовые с помощью дополнительных аксессуаров?",
+            "direction": 5,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 31,
+            "text": "Изучать тему электричества?",
+            "direction": 6,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 32,
+            "text": "Наблюдать за работой взаимосвязанных электростанций в реальном времени, отслеживать показатели и выявлять аномалии?",
+            "direction": 7,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 33,
+            "text": "Мастерить разные изделия из металлических деталей или с применением проволоки?",
+            "direction": 8,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 34,
+            "text": "Тренировать свою физическую выносливость?",
+            "direction": 9,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 35,
+            "text": "Поработать в летние каникулы на какой-либо стройке?",
+            "direction": 10,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 36,
+            "text": "Делать с удовольствием на уроках физики разные технические приспособления?",
+            "direction": 11,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 37,
+            "text": "Побывать на других планетах?",
+            "direction": 12,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 38,
+            "text": "Смотреть новинки автомобилестроения, обзор автомобильных брендов?",
+            "direction": 13,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 39,
+            "text": "Читать/слушать/смотреть истории жизни известных лётчиков и воздухоплавателей?",
+            "direction": 14,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 40,
+            "text": "Читать/слушать/смотреть истории жизни известных мореплавателей?",
+            "direction": 15,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 41,
+            "text": "Создавать новые сайты?",
+            "direction": 16,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 42,
+            "text": "Разъяснять разным людям, как можно получить доход, заработать деньги?",
+            "direction": 17,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 43,
+            "text": "Взаимодействовать с оружием (стрелковым, ракетным и прочим), создавать новое оружие?",
+            "direction": 18,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 44,
+            "text": "Разрабатывать гаджеты слежения и контроля?",
+            "direction": 19,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 45,
+            "text": "Испытывать ощущения при изнуряющих репетициях перед выступлением на сцене в том или ином образе (певец, танцор, актер, иллюзионист и пр.)?",
+            "direction": 20,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 46,
+            "text": "Создавать образы с помощью рисования, танца, пения, музыки и т.п. и предъявлять их зрителям/слушателям со сцены и на выставках твоего творчества?",
+            "direction": 21,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 47,
+            "text": "Придумывать новых персонажей для детских игр и историй, продумывать их характер, внешность, жизненную историю?",
+            "direction": 22,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 48,
+            "text": "Проводить время с младшими ребятами, читать им сказки, организовывать для них игры?",
+            "direction": 23,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 49,
+            "text": "Путешествовать по миру?",
+            "direction": 24,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 50,
+            "text": "Разрешать различные споры, находить компромиссы для других людей?",
+            "direction": 25,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 51,
+            "text": "Создавать роботов из молекул; стать современным Левшой?",
+            "direction": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 52,
+            "text": "Проводить усовершенствование биологических процессов и использовать клетки микроорганизмов, бактерий, грибов, дрожжей, животных и ферментов для производства и изменения продукта в интересах человека профессионально?",
+            "direction": 2,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 53,
+            "text": "Создавать систему режима питания и образа физической активности для детей или пожилых людей, диету во время режима спортивных тренировок?",
+            "direction": 3,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 54,
+            "text": "Летом заниматься работой на огороде? Может быть, у тебя на даче есть «своя» грядка, где ты выращиваешь разные культуры своего урожая?",
+            "direction": 4,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 55,
+            "text": "Рисовать новые платья и придумывать новую одежду для разных кукол, для себя или других? Нравится ли тебе ходить по подиуму, показывать разные модели одежды для людей?",
+            "direction": 5,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 56,
+            "text": "Проектировать энергоустановки, где будет экологично и безопасно накапливаться и генерироваться энергия?",
+            "direction": 6,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 57,
+            "text": "Работать с трансформаторами, высоковольтными линиями, релейной защитой и другим конкретным электроборудованием?",
+            "direction": 7,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 58,
+            "text": "Разбираться в химических и физических свойствах металлов и их взаимодействии с газами и другими веществами?",
+            "direction": 8,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 59,
+            "text": "Изучать структуру земли и методы и особенности технологий добычи полезных ископаемых?",
+            "direction": 9,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 60,
+            "text": "На даче или в своём доме своими руками вместе с близкими строить беседку или веранду?",
+            "direction": 10,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 61,
+            "text": "Придумывать роботов для бытовой домашней и профессиональной жизни людей?",
+            "direction": 11,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 62,
+            "text": "Изучать новинки в космических технологиях?",
+            "direction": 12,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 63,
+            "text": "Слушать/смотреть истории известных автомобильных брендов? Интересно ли тебе читать истории создания трамвайного сообщения, железнодорожного или автомобильного транспорта?",
+            "direction": 13,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 64,
+            "text": "Изучать истории создания воздухоплавательных аппаратов (самолётов, дирижаблей, вертолётов)?",
+            "direction": 14,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 65,
+            "text": "Изучать истории создания кораблей, теплоходов, пароходов, атомных ледоколов?",
+            "direction": 15,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 66,
+            "text": "Заниматься развитием аккаунтов в разных социальных сетях?",
+            "direction": 16,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 67,
+            "text": "Отвечать за бюджет в семье в целом?",
+            "direction": 17,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 68,
+            "text": "Заниматься спортом?",
+            "direction": 18,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 69,
+            "text": "Придумывать, формировать правила безопасного поведения при посещении незнакомых территорий?",
+            "direction": 19,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 70,
+            "text": "Демонстрировать результаты твоего самовыражения людям? Испытываешь ли ты вдохновение, радость и др. приятные чувства, когда зрители смотрят или слушатели слушают твоё творчество?",
+            "direction": 20,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 71,
+            "text": "Находить общий язык с разными людьми в процессе выработки какого-либо плана мероприятия, написания сценария, формулировать вопросы для дискуссии или интервьюировать?",
+            "direction": 21,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 72,
+            "text": "Придумывать и разработать компьютерную игру для подростков?",
+            "direction": 22,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 73,
+            "text": "Объяснять сложные термины из разных научных дисциплин простым житейским языком, понятным тем, кто не изучал тему?",
+            "direction": 23,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 74,
+            "text": "Знакомиться с объектами мировой художественной культуры (картины, здания, сооружения, храмы, книги, муз.произведения и т.п.)? Посещать музеи, концерты, экскурсии?",
+            "direction": 24,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 75,
+            "text": "Проводить исследования государственной политики в социальной сфере?",
+            "direction": 25,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 76,
+            "text": "Знакомиться с разными возможностями применения химических знаний в фармацевтике, криминалистике, промышленности и др. сферах?",
+            "direction": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 77,
+            "text": "Создавать новые препараты для ранней диагностики заболеваний или для коррекции организма человека в более здоровое состояние?",
+            "direction": 2,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 78,
+            "text": "Исследовать генетические и биологические особенности человека?",
+            "direction": 3,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 79,
+            "text": "Открыть своё фермерское хозяйство или пчелоферму?",
+            "direction": 4,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 80,
+            "text": "Выбирать ткани и фурнитуру для рукоделия в магазине, рассматривать их?",
+            "direction": 5,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 81,
+            "text": "Заниматься вопросами снабжения топливом электростанций и накопления энергоресурсов на конкретном участке, в конкретном здании?",
+            "direction": 6,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 82,
+            "text": "Заниматься вопросами эффективного использования энергоресурсов, например, в отдельном микрорайоне посёлка?",
+            "direction": 7,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 83,
+            "text": "Работать с такими аппаратами, как спектрометр, изучать процессы гальванизации?",
+            "direction": 8,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 84,
+            "text": "Исследовать данные, получаемые от земной коры, анализировать их, математически обрабатывать и интерпретировать?",
+            "direction": 9,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 85,
+            "text": "Заниматься ремонтом внутри дома, подыскивать обои, проектировать дизайн комнаты, разрабатывать функционал помещения?",
+            "direction": 10,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 86,
+            "text": "Настраивать разные программные приложения (блютус, аэрдроб, умныйдом и т.п.) и совмещать технические бытовые аппараты для дома и автомобиля между собой?",
+            "direction": 11,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 87,
+            "text": "Следить с интересом за космическими экспедициями в мире, за полетом космических аппаратов на Луну от разных стран?",
+            "direction": 12,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 88,
+            "text": "Играть в машинки и поезда в детстве и не только?",
+            "direction": 13,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 89,
+            "text": "Ощущать полёт в воздухе, взлет и посадку на самолете, полёт на дельтаплане и т.п.?",
+            "direction": 14,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 90,
+            "text": "Изучать навигацию, составлять маршруты движения по морю или реке?",
+            "direction": 15,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 91,
+            "text": "Анализировать информацию, исследовать ключевые слова, семантику в рекламе и на сайтах, базы данных, ссылки?",
+            "direction": 16,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 92,
+            "text": "Планировать бюджет семьи или группы сверстников во время путешествия, организации празднования своего дня рождения или дружеского?",
+            "direction": 17,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 93,
+            "text": "Управлять военным транспортом (танки, самолёты, БТР и др.) или быть оператором дрона (беспилотного летального аппарата)?",
+            "direction": 18,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 94,
+            "text": "Стать спасателем людей в чрезвычайных ситуациях?",
+            "direction": 19,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 95,
+            "text": "Подбирать музыкальный ряд для различных программ в классе или в школе, в семье, на праздники и торжественные мероприятия?",
+            "direction": 20,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 96,
+            "text": "Придумывать что-то новое, интересное для других людей, в т.ч. по их запросу?",
+            "direction": 21,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 97,
+            "text": "Изучать детскую психологию, искать разницу между детской и взрослой психологией?",
+            "direction": 22,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 98,
+            "text": "Замещать работу учителя в моментах школьного самоуправления или организовывать и проводить мастер-классы?",
+            "direction": 23,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 99,
+            "text": "Приходилось ли тебе организовывать поездку для семьи (мероприятия в путешествии), организовывать встречи друзей, приятелей?",
+            "direction": 24,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 100,
+            "text": "Исследовать проявления человеческой психологии в групповых сообществах?",
+            "direction": 25,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 101,
+            "text": "Создавать новые материалы из стекла и смесей для строительства, авиации, медицины?",
+            "direction": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 102,
+            "text": "Создавать новые микроорганизмы, которые будут очищать сточные воды, перерабатывать качественно человеческий мусор, отходы?",
+            "direction": 2,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 103,
+            "text": "Собирать и анализировать огромное количество информации?",
+            "direction": 3,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 104,
+            "text": "Выращивать дома растения в горшках или в закрытых сферах, изучая при этом особенности почвы и влияние разных удобрений?",
+            "direction": 4,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 105,
+            "text": "Быть дотошным при выборе одежды (ты проверяешь качество вещей тщательно; умеешь подбирать образ целиком)?",
+            "direction": 5,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 106,
+            "text": "Разрабатывать стратегию накопления тепловой энергии и её генерации?",
+            "direction": 6,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 107,
+            "text": "Разрабатывать стратегию снабжения электричеством и теплом целого учреждения?",
+            "direction": 7,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 108,
+            "text": "На уроках химии и физики проводить эксперименты с металлами?",
+            "direction": 8,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 109,
+            "text": "Коллекционировать различные камни, рассматривать их, анализировать их свойства?",
+            "direction": 9,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 110,
+            "text": "Смотреть видеоролики, телепередачи по различным технологиям и дизайнам квартир, домов, дачных участков и других зданий и сооружений?",
+            "direction": 10,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 111,
+            "text": "Настраивать дома телевизор на разные программные приложения по устройству дома?",
+            "direction": 11,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 112,
+            "text": "Интересоваться историей жизни и становления Юрия Гагарина и других первых космонавтов современного мира?",
+            "direction": 12,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 113,
+            "text": "Заниматься разборкой и сборкой автомобиля, или даже целого поезда и его ремонтом?",
+            "direction": 13,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 114,
+            "text": "Принимать решения во время стресса?",
+            "direction": 14,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 115,
+            "text": "Ощущать движение по открытой воде на сапбордах, лодках, паромах и лайнерах?",
+            "direction": 15,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 116,
+            "text": "Писать короткие тексты для первых страниц социальных сетей и других площадок, побуждающие к действию читающего?",
+            "direction": 16,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 117,
+            "text": "Торговаться при покупке или продаже товара?",
+            "direction": 17,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 118,
+            "text": "Разрабатывать чертежи, проекты, если они связаны с военным делом?",
+            "direction": 18,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 119,
+            "text": "Разрабатывать и контролировать безопасность движения людей на дорогах и в населенных пунктах?",
+            "direction": 19,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 120,
+            "text": "Создавать объемные формы, фигуры или создавать художественные произведения из драгоценных металлов и камней?",
+            "direction": 20,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 121,
+            "text": "Формировать общественное мнение, освещая мировые события для публики, собирая и анализируя различные документы и события из прошлого?",
+            "direction": 21,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 122,
+            "text": "Моделировать, проектировать игрушки?",
+            "direction": 22,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 123,
+            "text": "Заниматься изучением индивидуального образовательного опыта конкретного человека (или группы людей), выявлять интересы и потребности и формулировать образовательные цели на этой основе для этих людей?",
+            "direction": 23,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 124,
+            "text": "Готовить групповые или массовые мероприятия для семьи, класса, школы и шире (например, областную сопртивную олимпиаду или проект по празднованию Дня семьи в городе)?",
+            "direction": 24,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 125,
+            "text": "Разбираться в различных конфликтных ситуациях?",
+            "direction": 25,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 126,
+            "text": "Создавать новые материалы и новые технологии по созданию этих материалов с уникальными свойствами на основе манипуляций с атомами и молекулами?",
+            "direction": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 127,
+            "text": "Создавать новые сорта растений или разрабатывать сбалансированное питание и новые молекулярные продукты для человека и домашних животных?",
+            "direction": 2,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 128,
+            "text": "Делать перевязки, подбирать систему лекарств при каких-либо заболеваниях (простуда, например)? И следить за приёмом лекарств по назначениям врача?",
+            "direction": 3,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 129,
+            "text": "Владеть фермой курочек или страусов, ухаживать за ними и получать свежие яйца?",
+            "direction": 4,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 130,
+            "text": "Осуществлять регулярный просмотр историй в соцсетях от блогеров по стилю; вести свой такой блог?",
+            "direction": 5,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 131,
+            "text": "Придумывать способы, которые позволяют сохранять произведенную энергию в генераторах?",
+            "direction": 6,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 132,
+            "text": "Придумывать способы, которые позволяют снижать потери энергии в сетях, по которым она передаётся?",
+            "direction": 7,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 133,
+            "text": "Создавать новые металлы, контролируя температуру и другие условия плавления металлов?",
+            "direction": 8,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 134,
+            "text": "Наблюдать влияние атмосферных процессов на окружающую среду в различной местности? Например, дождь в регионе Южного Урала и дождь на Аравийском полуострове: последствия",
+            "direction": 9,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 135,
+            "text": "Делать наброски зданий, домов, сооружений?",
+            "direction": 10,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 136,
+            "text": "Заниматься программирование новых станков с ЧПУ? Заниматься устранением неисправностей в различных пневмо-устройствах, выполняющих запрограммированные действия?",
+            "direction": 11,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 137,
+            "text": "Проводить исследования в космическом пространстве?",
+            "direction": 12,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 138,
+            "text": "Наблюдать за работой сотрудников автомеханических слесарных мастерских?",
+            "direction": 13,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 139,
+            "text": "Следить за техническим состоянием самолёта?",
+            "direction": 14,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 140,
+            "text": "Следить за техническим состоянием катера, большого корабля или подводной лодки или яхты?",
+            "direction": 15,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 141,
+            "text": "Разрабатывать, настраивать, улучшать, обслуживать новые приложения для разных операционных систем и мобильные приложения?",
+            "direction": 16,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 142,
+            "text": "Принимать решения в непредвиденных сложных ситуациях?",
+            "direction": 17,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 143,
+            "text": "Разрабатывать военные стратегии, моделировать исход исторических битв, меняя условия?",
+            "direction": 18,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 144,
+            "text": "Смотреть/слушать/читать разные детективные истории, где расследуются преступления?",
+            "direction": 19,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 145,
+            "text": "Вести большие мероприятия для государственных или бизнес-компаний?",
+            "direction": 20,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 146,
+            "text": "Заниматься подготовкой визуального или аудио ряда художественных, мультипликационных, рекламных и т.п. произведений?",
+            "direction": 21,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 147,
+            "text": "Контролировать безопасность играющих, как в активных играх, так и в онлайн-пространстве?",
+            "direction": 22,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 148,
+            "text": "Разрабатывать образовательные программы (обучающие курсы) по какойлибо научной дисциплине (школьному предмету) для групп людей?",
+            "direction": 23,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 149,
+            "text": "Контролировать роботехнику в местах обслуживания клиентов (обслуживание в гостиницах, ресторанах, на кассах магазинов, поликлиниках)?",
+            "direction": 24,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 150,
+            "text": "Проводить опросы общественного мнения, брать интервью, выявлять тенденции в развитии разных явлений общественной жизни?",
+            "direction": 25,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 151,
+            "text": "Работать с лабораторным и технологическим оборудованием в кабинетах химии, физики и др. местах?",
+            "direction": 1,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 152,
+            "text": "Создавать альтернативные варианты топлива на основе биокомпонентов?",
+            "direction": 2,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 153,
+            "text": "Посещать кунсткамеры и музеи, где представлены различные анатомические органы и ткани?",
+            "direction": 3,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 154,
+            "text": "Контактировать и ухаживать за крупными животными типа коров, овец, лошадей?",
+            "direction": 4,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 155,
+            "text": "Придумывать дизайн различных предметов домашнего обихода, бытовых предметов, мебели, одежды, текстиля?",
+            "direction": 5,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 156,
+            "text": "Действовать сосредоточенно и длительно по решению каких-либо кодов, задач, цепочек информации?",
+            "direction": 6,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 157,
+            "text": "Делать анализ работы энергосистемы и вносить корректировки для повышения эффективности и снижения затрат и потерь электроэнергии?",
+            "direction": 7,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 158,
+            "text": "Быть дотошным при использовании различного оборудования на уроках физики и химии, контролировать безопасность их использования, быстро реагировать на нестандартные ситуации?",
+            "direction": 8,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 159,
+            "text": "Заниматься сохранением и защитой окружающей среды, изучая природные процессы и их взаимодействие с человеком?",
+            "direction": 9,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 160,
+            "text": "Заниматься черчением?",
+            "direction": 10,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 161,
+            "text": "Заниматься физикой, математикой, информатикой и немного химией?",
+            "direction": 11,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 162,
+            "text": "Проектировать космические корабли или внутреннее экопространство космического корабля?",
+            "direction": 12,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 163,
+            "text": "Управлять автомобилем, поездом или троллейбусом?",
+            "direction": 13,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 164,
+            "text": "Работать в аэропорту?",
+            "direction": 14,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 165,
+            "text": "Работать в морском порту?",
+            "direction": 15,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 166,
+            "text": "Создавать, настраивать, разрабатывать и обслуживать компьютерные игры, заниматься их оформлением на сайтах?",
+            "direction": 16,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 167,
+            "text": "Заниматься точными расчётами?",
+            "direction": 17,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 168,
+            "text": "Ориентироваться на разной местности, изучать особенности почвы, составлять карты местности?",
+            "direction": 18,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 169,
+            "text": "Быть защитником государства, разрабатывать стратегии безопасности своей страны среди других государств?",
+            "direction": 19,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 170,
+            "text": "Создавать какие-либо видеоролики и/или проекты мероприятий для различных организаций и государственных мероприятий на уровне города или страны?",
+            "direction": 20,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 171,
+            "text": "Рисовать различные интерьеры от отдельной комнаты в квартире до дизайна земельных участков или промышленных помещений?",
+            "direction": 21,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 172,
+            "text": "Преобразовывать образовательные циклы в какие-либо компьютерные игры или игровые тренинги? Придумывать настолки или другие формы игры, в которых будет заложена образовательная тема какого-либо школьного предмета",
+            "direction": 22,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 173,
+            "text": "Координировать работу людей в различных проектах?",
+            "direction": 23,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 174,
+            "text": "Работать во взаимодействии с ИИ, разрабатывать проекты по дизайну пространства с учетом исторической реальности территории?",
+            "direction": 24,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        },
+        {
+            "id": 175,
+            "text": "Оказывать помощь детям в трудных жизненных ситуациях?",
+            "direction": 25,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Очень нравится",
+                    "type": "veryPositive"
+                },
+                {
+                    "id": 2,
+                    "text": "Нравится",
+                    "type": "positive"
+                },
+                {
+                    "id": 3,
+                    "text": "Не знаю",
+                    "type": "neutral"
+                },
+                {
+                    "id": 4,
+                    "text": "Не нравится",
+                    "type": "negative"
+                },
+                {
+                    "id": 5,
+                    "text": "Очень не нравится",
+                    "type": "veryNegative"
+                }
+            ],
+            "userAnswer": 0
+        }
+    ]
 }

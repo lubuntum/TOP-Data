@@ -1,14 +1,244 @@
 {
-  "data": [
-    {
-      "id": 1,
-      "text": "Вопрос Йовайши 1",
-      "options": [
-        { "id": 1, "text": "Вариант А", "isPicked": false, "type": "people" },
-        { "id": 2, "text": "Вариант Б", "isPicked": false, "type": "art" },
-        { "id": 3, "text": "Вариант В", "isPicked": false, "type": "econ" }
-      ],
-      "userAnswer": 0
-    }
-  ]
+        "data": [
+                {
+                        "id": 1,
+                        "text": "Мне хотелось бы в своей профессиональной деятельности",
+                        "options": [
+                                { "id": 1, "text": "общаться с самыми разными людьми", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "снимать фильмы, писать книги, рисовать, выступать на сцене и т.д.", "isPicked": false, "type": "aesthetic" },
+                                { "id": 3, "text": "заниматься расчетами; вести документацию", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 2,
+                        "text": "В книге или кинофильме меня больше всего привлекает",
+                        "options": [
+                                { "id": 1, "text": "возможность следить за ходом мыслей автора", "isPicked": false, "type": "research" },
+                                { "id": 2, "text": "художественная форма, мастерство писателя или режиссера", "isPicked": false, "type": "aesthetic" },
+                                { "id": 3, "text": "сюжет, действия героев", "isPicked": false, "type": "extreme" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 3,
+                        "text": "Меня больше обрадует Нобелевская премия",
+                        "options": [
+                                { "id": 1, "text": "за общественную деятельность", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "в области науки", "isPicked": false, "type": "research" },
+                                { "id": 3, "text": "в области искусства", "isPicked": false, "type": "aesthetic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 4,
+                        "text": "Я скорее соглашусь стать",
+                        "options": [
+                                { "id": 1, "text": "главным механиком", "isPicked": false, "type": "practical" },
+                                { "id": 2, "text": "начальником экспедиции", "isPicked": false, "type": "extreme" },
+                                { "id": 3, "text": "главным бухгалтером", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 5,
+                        "text": "Будущее людей определяют",
+                        "options": [
+                                { "id": 1, "text": "взаимопонимание между людьми", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "научные открытия", "isPicked": false, "type": "research" },
+                                { "id": 3, "text": "развитие производства", "isPicked": false, "type": "practical" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 6,
+                        "text": "Если я стану руководителем, то в первую очередь займусь",
+                        "options": [
+                                { "id": 1, "text": "созданием дружного, сплоченного коллектива", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "разработкой новых технологий обучения", "isPicked": false, "type": "research" },
+                                { "id": 3, "text": "работой с документами", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 7,
+                        "text": "На технической выставке меня больше привлечет",
+                        "options": [
+                                { "id": 1, "text": "внутреннее устройство экспонатов", "isPicked": false, "type": "research" },
+                                { "id": 2, "text": "их практическое применение", "isPicked": false, "type": "practical" },
+                                { "id": 3, "text": "внешний вид экспонатов (цвет, форма)", "isPicked": false, "type": "aesthetic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 8,
+                        "text": "В людях я ценю, прежде всего",
+                        "options": [
+                                { "id": 1, "text": "дружелюбие и отзывчивость", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "смелость и выносливость", "isPicked": false, "type": "extreme" },
+                                { "id": 3, "text": "обязательность и аккуратность", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 9,
+                        "text": "В свободное время мне хотелось бы",
+                        "options": [
+                                { "id": 1, "text": "ставить различные опыты, эксперименты", "isPicked": false, "type": "research" },
+                                { "id": 2, "text": "писать стихи, сочинять музыку или рисовать", "isPicked": false, "type": "aesthetic" },
+                                { "id": 3, "text": "тренироваться", "isPicked": false, "type": "extreme" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 10,
+                        "text": "В заграничных поездках меня скорее заинтересует",
+                        "options": [
+                                { "id": 1, "text": "возможность знакомства с историей и культурой другой страны", "isPicked": false, "type": "aesthetic" },
+                                { "id": 2, "text": "экстремальный туризм (альпинизм, виндсерфинг, горные лыжи)", "isPicked": false, "type": "extreme" },
+                                { "id": 3, "text": "деловое общение", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 11,
+                        "text": "Мне интереснее беседовать о",
+                        "options": [
+                                { "id": 1, "text": "человеческих взаимоотношениях", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "новой научной гипотезе", "isPicked": false, "type": "research" },
+                                { "id": 3, "text": "технических характеристиках новой модели машины, компьютера", "isPicked": false, "type": "practical" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 12,
+                        "text": "Если бы в моей школе было всего три кружка, я бы выбрал",
+                        "options": [
+                                { "id": 1, "text": "технический", "isPicked": false, "type": "practical" },
+                                { "id": 2, "text": "музыкальный", "isPicked": false, "type": "aesthetic" },
+                                { "id": 3, "text": "спортивный", "isPicked": false, "type": "extreme" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 13,
+                        "text": "В школе следует обратить особое внимание на",
+                        "options": [
+                                { "id": 1, "text": "улучшение взаимопонимания между учителями и учениками", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "поддержание здоровья учащихся, занятия спортом", "isPicked": false, "type": "extreme" },
+                                { "id": 3, "text": "укрепление дисциплины", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 14,
+                        "text": "Я с большим удовольствием смотрю",
+                        "options": [
+                                { "id": 1, "text": "научно-популярные фильмы", "isPicked": false, "type": "research" },
+                                { "id": 2, "text": "программы о культуре и искусстве", "isPicked": false, "type": "aesthetic" },
+                                { "id": 3, "text": "спортивные программы", "isPicked": false, "type": "extreme" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 15,
+                        "text": "Мне хотелось бы работать",
+                        "options": [
+                                { "id": 1, "text": "с детьми или сверстниками", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "с машинами, механизмами", "isPicked": false, "type": "practical" },
+                                { "id": 3, "text": "с объектами природы", "isPicked": false, "type": "extreme" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 16,
+                        "text": "Школа в первую очередь должна",
+                        "options": [
+                                { "id": 1, "text": "учить общению с другими людьми", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "давать знания", "isPicked": false, "type": "research" },
+                                { "id": 3, "text": "обучать навыкам работы", "isPicked": false, "type": "practical" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 17,
+                        "text": "Главное в жизни",
+                        "options": [
+                                { "id": 1, "text": "иметь возможность заниматься творчеством", "isPicked": false, "type": "aesthetic" },
+                                { "id": 2, "text": "вести здоровый образ жизни", "isPicked": false, "type": "extreme" },
+                                { "id": 3, "text": "тщательно планировать свои дела", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 18,
+                        "text": "Государство должно в первую очередь заботиться о",
+                        "options": [
+                                { "id": 1, "text": "защите интересов и прав граждан", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "достижениях в области науки и техники", "isPicked": false, "type": "research" },
+                                { "id": 3, "text": "материальном благополучии граждан", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 19,
+                        "text": "Мне больше всего нравятся уроки",
+                        "options": [
+                                { "id": 1, "text": "труда", "isPicked": false, "type": "practical" },
+                                { "id": 2, "text": "физкультуры", "isPicked": false, "type": "extreme" },
+                                { "id": 3, "text": "математики", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 20,
+                        "text": "Мне интереснее было бы",
+                        "options": [
+                                { "id": 1, "text": "заниматься сбытом товаров", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "изготавливать изделия", "isPicked": false, "type": "practical" },
+                                { "id": 3, "text": "планировать производство товаров", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 21,
+                        "text": "Я предпочитаю читать статьи о",
+                        "options": [
+                                { "id": 1, "text": "выдающихся ученых и их открытиях", "isPicked": false, "type": "research" },
+                                { "id": 2, "text": "интересных изобретениях", "isPicked": false, "type": "practical" },
+                                { "id": 3, "text": "жизни и творчестве писателей, художников, музыкантов", "isPicked": false, "type": "aesthetic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 22,
+                        "text": "Свободное время я люблю",
+                        "options": [
+                                { "id": 1, "text": "читать, думать, рассуждать", "isPicked": false, "type": "research" },
+                                { "id": 2, "text": "что-нибудь мастерить, шить, ухаживать за животными, растениями", "isPicked": false, "type": "practical" },
+                                { "id": 3, "text": "ходить на выставки, концерты, в музеи", "isPicked": false, "type": "aesthetic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 23,
+                        "text": "Больший интерес у меня вызовет сообщение о",
+                        "options": [
+                                { "id": 1, "text": "научном открытии", "isPicked": false, "type": "research" },
+                                { "id": 2, "text": "художественной выставке", "isPicked": false, "type": "aesthetic" },
+                                { "id": 3, "text": "экономической ситуации", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                },
+                {
+                        "id": 24,
+                        "text": "Я предпочту работать",
+                        "options": [
+                                { "id": 1, "text": "в помещении, где много людей", "isPicked": false, "type": "people" },
+                                { "id": 2, "text": "в необычных условиях", "isPicked": false, "type": "extreme" },
+                                { "id": 3, "text": "в обычном кабинете", "isPicked": false, "type": "economic" }
+                        ],
+                        "userAnswer": 0
+                }
+        ]
 }
