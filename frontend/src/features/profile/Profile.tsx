@@ -22,9 +22,12 @@ export const Profile = () => {
                     <h2>Личный кабинет</h2>
                     <p>Данные участника тестирования</p>
                 </div>
-                <button onClick={handleLogout} className="btn-logout">
-                    Выйти
-                </button>
+                <div className="profile-options">
+                    <button onClick={() => navigate("/tests")} className="btn-logout">Тесты</button>
+                    <button onClick={handleLogout} className="btn-logout">
+                        Выйти
+                    </button>
+                </div>
             </div>
 
         <div className="profile-body">

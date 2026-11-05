@@ -15,7 +15,12 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-
+.profile-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 .profile-title h2 {
   font-size: 1.5rem;
   margin-bottom: 0.25rem;
