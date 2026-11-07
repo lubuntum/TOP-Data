@@ -16,7 +16,76 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.logo-switcher {
+  position: relative;
+  width: 70px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.switcher-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  mix-blend-mode: multiply;
+}
+.switcher-logo.active {
+  opacity: 1;
+}
+.header-golo:hover {
+  opacity: 0.8;
+}
+.app-footer {
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: 1.5rem 0.5rem;
+  font-size: 0.875rem;
+  margin-top: auto;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.footer-section p {
+  margin: 0;
+  line-height: 1.6;
+}
+.footer-section a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-section a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+.app-nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text-main);
+  cursor: pointer;
+  padding: 0.5rem;
+}
 /* Основная рабочая область */
 .app-main {
   flex: 1;
@@ -33,9 +102,81 @@
   padding: 0 1rem;
 }
 
+@media (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+  .app-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--color-surface);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    box-shadow: var(--shadow-md);
+    border-bottom: 1px solid var(--color-border);
+    z-index: 50;
+    display: none;
+  }
+  .app-nav.open {
+    display: flex;
+    animation: slideDown 0.2s ease-out;
+  }
+  .app-nav > * {
+    width: 100%;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--color-border);
+    text-align: left;
+  }
+  .app-nav > *:last-child{
+    border-bottom: none;
+  }
+  .app-header {
+    position: relative;
+  }
+  .header-brand {
+    gap: 1rem;
+  }
+  .header-icons {
+    gap: 0.5rem;
+  }
+  .logo-switcher {
+    width: 100px;
+    height: 24px;
+  }
+}
 /* На мобильных уменьшаем отступы */
 @media (max-width: 640px) {
   .app-main {
     padding: 1rem 0.5rem;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: start;
+    text-align:start;
+    gap: 1rem;
+  }
+  .app-footer {
+    padding: 1rem 0;
+  }
+}
+@media (max-width: 400px) {
+  .header-icons {
+    display: none;
+  }
+  .logo-switcher {
+    display: none;
+  }
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
