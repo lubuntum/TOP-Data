@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Link, Navigate, NavLink, Route, Routes, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Link, Navigate, NavLink, Route, Routes } from 'react-router-dom';
 import { RegisterForm } from './features/auth/RegisterForm'
 import { LoginForm } from './features/auth/LoginForm';
 import { Profile } from './features/profile/Profile';
@@ -13,13 +13,8 @@ import { LogoSwitcher } from './components/LogoSwitcher';
 
 const AppContent = () => {
   const {user, logout} = useAuth()
-  const navigate = useNavigate()
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
-  const handleLogout = async () => {
-    setIsMenuOpen(false)
-    await logout()
-    navigate('/login')
-  }
+
   const closeMenu = () => setIsMenuOpen(false)
   return (
     <div className="app-layout">

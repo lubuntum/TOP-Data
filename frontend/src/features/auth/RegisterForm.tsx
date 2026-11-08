@@ -3,8 +3,7 @@ import { Controller, useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { apiClient } from '../../api/client';
-import type { RegisterRequest, RegisterResponse } from './types';
-import { da } from 'zod/locales';
+import type { RegisterResponse } from './types';
 import './RegisterForm.css'
 import { formatPhone } from '../../utility/formatPhone';
 import { useNavigate } from 'react-router-dom';
