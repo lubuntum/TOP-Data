@@ -105,7 +105,6 @@ const AppContent = () => {
             <p>
               <a href="mailto:lubuntum@gmail.com">lubuntum@gmail.com</a>
               <span className='mx-2'>.</span>
-              <a href="tel:+79134439868">+7 (913) 443-98-68</a>
             </p>
           </div>
         </div>
