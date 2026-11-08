@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  tests-backend:
+    build: ./backend
+    container_name: tests-backend
+    # command убираем, если используем CMD из Dockerfile
+    volumes:
+      - ./backend:/app
+      - sqlite_data:/app/data
+    env_file:
+      - ./backend/.env
+    networks:
+      - crm-network  # <-- Подключаем к СУЩЕСТВУЮЩЕЙ сети старого проекта
+    restart: unless-stopped
+
+  tests-frontend:
+    build: ./frontend
+    container_name: tests-frontend
+    networks:
+      - crm-network  # <-- Подключаем к СУЩЕСТВУЮЩЕЙ сети старого проекта
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:
+
+# Объявляем внешнюю сеть
+networks:
+  crm-network:
+    external: true
