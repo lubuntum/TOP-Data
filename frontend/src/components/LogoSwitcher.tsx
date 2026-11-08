@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 
 const LOGOS = [
-    { src: '/public/icons/top.png', url: "https://top-academy.ru"},
-    { src: '/public/icons/top-college.png', url: "https://top-academy.ru"},
-    { src: '/public/icons/tech-university.png', url: "https://top-academy.ru"}
+    { src: '/icons/top.png', url: "https://top-academy.ru"},
+    { src: '/icons/top-college.png', url: "https://top-academy.ru"},
+    { src: '/icons/tech-university.png', url: "https://top-academy.ru"}
 ]
 export const LogoSwitcher = () => {
     const [activeIndex, setActiveIndex] = useState(0)
