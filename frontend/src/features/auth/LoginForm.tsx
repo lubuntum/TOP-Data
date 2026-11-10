@@ -52,6 +52,7 @@ export const LoginForm = () => {
     }
     return (
         <form onSubmit={handleSubmit(onSubmit)} className="register-form">
+            <img className="company-logo" src="/icons/top.svg" />
             <h2 className="text-2xl font-bold text-center mb-6">Вход в систему</h2>
             {error && <div className="text-danger bg-red-50 p-3 rounded-md mb-4 text-sm">{error}</div>}
             <button 
@@ -75,6 +76,9 @@ export const LoginForm = () => {
             </button>
             <div className="text-center text-sm">
                 Нет аккаунта? <Link to="/register" className="text-primary font-medium hover:underline">Зарегистрироваться</Link>
+            </div>
+            <div className="text-center text-sm">
+                Забыли пароль? <Link to="/reset-password" className="text-primary font-medium hover:underline">Восстановить пароль</Link>
             </div>
         </form>
     )

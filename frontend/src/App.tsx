@@ -10,6 +10,7 @@ import { TestEngine } from './features/tests/engine/TestEngine';
 import { ResultPage } from './features/tests/results/ResultPage';
 import { useState } from 'react';
 import { LogoSwitcher } from './components/LogoSwitcher';
+import { ResetPasswordForm } from './features/auth/ResetPasswordForm';
 
 const AppContent = () => {
   const {user, logout} = useAuth()
@@ -23,11 +24,11 @@ const AppContent = () => {
       <header className="app-header">
         <div className='header-brand'>
 
-        
+          <LogoSwitcher/>
           <Link to="/" className="text-xl font-bold text-primary" style={{ textDecoration: 'none' }}>
             Профориентация
           </Link>
-          <LogoSwitcher/>
+          
         </div>
       
         {/* Навигация, видна только авторизованным */}
@@ -73,6 +74,7 @@ const AppContent = () => {
           <Route element={<PublicRoute/>}>
             <Route path="/login" element={<LoginForm />} />
             <Route path="/register" element={<RegisterForm />} />
+            <Route path="/reset-password" element={<ResetPasswordForm/>} />
           </Route>
           <Route element={<ProtectedRoute/>}>
             <Route path='/profile' element={<Profile/>}/>
@@ -92,11 +94,11 @@ const AppContent = () => {
             <p className="font-medium text-main mb-1">Профориентационное тестирование проводится Академией ТОП при поддержке Управления образования г. Абакана в рамках образовательной программы по профессиональной ориентации школьников. </p>
           </div>
           <div className='footer-section'>
-            <p className='font-medium text-main mb-1'>Приемная "Компьютернная "Акаедмия ТОП"</p>
+            <p className='font-medium text-main mb-1'>Приемная "Компьютернная "Академия ТОП"</p>
             <p>
-              <a href="mailto:academy@top.ru">abakan@top-academy.ru</a>
+              <a href="mailto:abakan@top-academy.ru">abakan@top-academy.ru</a>
               <span className='mx-2'>.</span>
-              <a href="tel:79139999999">+7 (390) 221-53-54</a>
+              <a href="tel:73902215354">+7 (390) 221-53-54</a>
             </p>
           </div>
 

@@ -1,5 +1,6 @@
 /* src/features/auth/RegisterForm.css */
 .register-form {
+  position: relative;
   width: 100%;
   max-width: 450px;
   background: var(--color-surface);

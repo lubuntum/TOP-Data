@@ -95,6 +95,7 @@ export const RegisterForm = () => {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)} className="register-form">
+        <img className="company-logo" src="/icons/top.svg" />
         <h2 className="text-2xl font-bold text-center mb-6">Регистрация</h2>
         
         {error && <div className="text-danger bg-red-50 p-3 rounded-md mb-4 text-sm">{error}</div>}
@@ -148,7 +149,7 @@ export const RegisterForm = () => {
 
         <div className="checkbox-group">
           <input type="checkbox" {...register('consent_pd')} id="consent_pd" />
-          <label htmlFor="consent_pd" className="text-sm text-muted">Согласие на обработку персональных данных</label>
+          <label htmlFor="consent_pd" className="text-sm text-muted"><a href="/docs/personal_data_agreement.pdf">Согласие на обработку персональных данных</a></label>
         </div>
         {errors.consent_pd && <span className="form-error mb-4 block">{errors.consent_pd.message}</span>}
 

@@ -71,7 +71,8 @@ export const ResultPage = () => {
 
     return (<>
         <div className="result-container">
-            <div className="result-header">
+            <img className="company-logo" src="/icons/top.svg" />
+            <div className="result-header">        
                 <p className="result-title">Результат теста: {result.test_code}</p>
                 <h1 className="result-type"> {interpretation ? interpretation.title : "Результат сохранен"}</h1>
             </div>

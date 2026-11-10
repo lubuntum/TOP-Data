@@ -23,8 +23,8 @@
 }
 .logo-switcher {
   position: relative;
-  width: 70px;
-  height: 32px;
+  width: 75px;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,6 +42,13 @@
 }
 .switcher-logo.active {
   opacity: 1;
+}
+.company-logo {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
 }
 .header-golo:hover {
   opacity: 0.8;
@@ -143,8 +150,8 @@
     gap: 0.5rem;
   }
   .logo-switcher {
-    width: 100px;
-    height: 24px;
+    width: 75px;
+    height: 75px;
   }
 }
 /* На мобильных уменьшаем отступы */
