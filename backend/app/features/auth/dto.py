@@ -54,3 +54,10 @@ class UserProfileDTO(BaseModel):
     class_label: str
     phone: str
     login: str
+
+class ResetPasswordRequestDTO(BaseModel):
+    phone: str
+class ResetPasswordResponseDTO(BaseModel):
+    login: str
+    password: str
+    message: str = "Пароль успешно сброшен"

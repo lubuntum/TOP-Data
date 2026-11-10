@@ -34,5 +34,9 @@ class UserEntity(Base):
         DateTime(timezone=True), server_default=func.now()
     )
 
+    last_reset_request_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
+
     def __repr__(self) -> str:
         return f"<UserEntity(id={self.id}, login='{self.login}')>"

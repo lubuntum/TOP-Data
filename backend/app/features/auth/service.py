@@ -8,6 +8,7 @@ from app.core.database.entities.user_entity import UserEntity
 from app.core.security import hash_password
 from app.features.auth.dto import RegisterRequestDTO, LoginRequestDTO
 
+from datetime import datetime, timedelta, timezone
 
 def generate_credentials(child_name: str) -> tuple[str, str]:
     """Generate login based on child's name and password"""
@@ -61,3 +62,23 @@ async def authenticate_user(db: AsyncSession, data: LoginRequestDTO) -> UserEnti
     if not user.is_active:
         raise ValueError("Account is blocked")
     return user
+async def reset_user_password(db: AsyncSession, phone: str) -> tuple[str, str]:
+    # 1. search for user by parrent phone
+    user = await db.scalar(select(UserEntity).where(UserEntity.phone == phone))
+    if not user:
+        raise ValueError("User not found")
+    # 2. Check if user already reset the password in last 60 seconds
+    if user.last_reset_request_at:
+        last_request = user.last_reset_request_at.replace(tzinfo=timezone.utc)
+        now = datetime.now(timezone.utc)
+        if now - last_request < timedelta(seconds=60):
+            time_left = 60 - int((now - last_request).total_seconds())
+            raise ValueError(f"Слишком много попыток. Попробуйте через {time_left} сек.")
+    # 3. Generating new password
+    _, new_password = generate_credentials(user.child_full_name)
+    user.password_hash = hash_password(new_password)
+    # 4. Save current request time for 2. checking
+    user.last_reset_request_at = datetime.now(timezone.utc)
+
+    await db.flush()
+    return user.login, new_password

@@ -9,7 +9,7 @@ from app.core.database.entities.user_entity import UserEntity
 from app.features.auth import service
 from app.features.auth.dto import (
     RegisterRequestDTO, RegisterResponseDTO,
-    LoginRequestDTO, LoginResponseDTO, UserProfileDTO
+    LoginRequestDTO, LoginResponseDTO, UserProfileDTO, ResetPasswordResponseDTO, ResetPasswordRequestDTO
 )
 from app.config import get_settings
 settings = get_settings()
@@ -61,3 +61,18 @@ async def get_me(
 async def logout(response: Response):
     response.delete_cookie("access_token")
     return {"message": "logout successful"}
+
+@router.post("/reset-password", response_model=ResetPasswordResponseDTO)
+async def reset_password(
+        data: ResetPasswordRequestDTO,
+        db: Annotated[(AsyncSession, Depends(get_db))]
+):
+    try:
+        login, new_password = await service.reset_user_password(db, data.phone)
+        await db.commit()
+        return ResetPasswordResponseDTO(
+            login=login,
+            password=new_password
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
