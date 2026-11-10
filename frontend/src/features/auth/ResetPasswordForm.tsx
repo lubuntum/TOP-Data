@@ -1,4 +1,4 @@
-import { useState, type ChangeEvent } from "react"
+import { useState } from "react"
 import { formatPhone } from "../../utility/formatPhone"
 import {z} from 'zod'
 import { Controller, useForm } from "react-hook-form"
@@ -22,7 +22,7 @@ export const ResetPasswordForm = () => {
 
     const [result, setResult] = useState<{login: string; password: string} | null>(null)
 
-    const {register, handleSubmit, control, formState: {errors}} = useForm<FormData>({
+    const {handleSubmit, control, formState: {errors}} = useForm<FormData>({
         resolver: zodResolver(resetSchema),
         mode: "onTouched"
     })
