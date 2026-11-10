@@ -22,3 +22,6 @@ httpx==0.26.0
 
 # Docker
 gunicorn==21.2.0
+
+# Migrations
+alembic==1.13.1
