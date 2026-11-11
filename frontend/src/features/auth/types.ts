@@ -2,6 +2,7 @@ export interface RegisterRequest {
     parent_full_name: string
     child_full_name: string
     school_number: string
+    city: string | null
     class_number: number
     class_label: string
     phone: string

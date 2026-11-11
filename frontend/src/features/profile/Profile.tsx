@@ -39,7 +39,7 @@ export const Profile = () => {
             <div className="info-row">
                 <div className="info-label">Школа и класс</div>
                 <div className="info-value">
-                    №{user.school_number}, {user.class_number}{user.class_label} класс
+                    {user.city ? `г. ${user.city}, ` : ''} Школа № {user.school_number}, {user.class_number}{user.class_label} класс
                 </div>
             </div>
 

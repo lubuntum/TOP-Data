@@ -6,6 +6,7 @@ interface UserProfile {
   parent_full_name: string;
   child_full_name: string;
   school_number: string;
+  city: string;
   class_number: number;
   class_label: string;
   login: string;

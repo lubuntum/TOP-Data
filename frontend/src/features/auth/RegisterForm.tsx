@@ -7,12 +7,16 @@ import type { RegisterResponse } from './types';
 import './RegisterForm.css'
 import { formatPhone } from '../../utility/formatPhone';
 import { useNavigate } from 'react-router-dom';
+
+import { RUSSIAN_CITIES } from './cities';
+
 const registerSchema = z.object({
     parent_full_name: z.string().min(2, "Введите ФИО родителя"),
     child_full_name: z.string().min(2, "Введите ФИО ребенка"),
-     school_number: z.string()
-        .min(1, "Номер школы")
-        .regex(/^\d+$/, "Только цифры"),
+    school_number: z.string()
+      .min(1, "Номер школы")
+      .regex(/^\d+$/, "Только цифры"),
+    city: z.string().min(2, "Введите ваш город"),
     class_number: z.coerce.number().min(1, "Класс от 1 до 11").max(11, "Класс от 1 до 11"),
     class_label: z.string()
         .length(1, "Введите букву класса")
@@ -146,10 +150,32 @@ export const RegisterForm = () => {
           />
           {errors.phone && <span className="form-error">{errors.phone.message}</span>}
         </div>
+        <div className='form-group'>
+            <label className='text-sm font-medium mb-1'>Город</label>
+            <input 
+              {...register('city')}
+              className='form-input'
+              placeholder='Например: Абакан'
+              list='cities-list' />
+              <datalist id='cities-list'>
+                {RUSSIAN_CITIES.map(city => (
+                  <option value={city} />
+                ))}
+              </datalist>
+        </div>
 
         <div className="checkbox-group">
           <input type="checkbox" {...register('consent_pd')} id="consent_pd" />
-          <label htmlFor="consent_pd" className="text-sm text-muted"><a href="/docs/personal_data_agreement.pdf">Согласие на обработку персональных данных</a></label>
+          <label htmlFor="consent_pd" className="text-sm text-muted">
+            <a 
+              href="/docs/personal_data_agreement.pdf"
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-primary hover:underline'
+              >
+                Согласие на обработку персональных данных
+              </a>
+            </label>
         </div>
         {errors.consent_pd && <span className="form-error mb-4 block">{errors.consent_pd.message}</span>}
 
