@@ -13,6 +13,7 @@ class UserEntity(Base):
     parent_full_name: Mapped[str] = mapped_column(String(255), nullable=False)
     child_full_name: Mapped[str] = mapped_column(String(255), nullable=False)
     school_number: Mapped[str] = mapped_column(String(255), nullable=False)
+    city: Mapped[str | None] = mapped_column(String(100), nullable=True)
     class_number: Mapped[int] = mapped_column(Integer, nullable=False)
     class_label: Mapped[str] = mapped_column(String(1), nullable=False)
     phone: Mapped[str] = mapped_column(

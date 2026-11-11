@@ -8,6 +8,7 @@ class RegisterRequestDTO(BaseModel):
     parent_full_name: str = Field(..., min_length=2, max_length=255)
     child_full_name: str = Field(..., min_length=2, max_length=255)
     school_number: str = Field(..., min_length=1, max_length=50)
+    city: str = Field(..., min_length=2, max_length=100)
     class_number: int = Field(..., ge=1, le=11)
     class_label: str = Field(..., min_length=1, max_length=1)
     phone: str = Field(..., min_length=11, max_length=20)
@@ -50,6 +51,7 @@ class UserProfileDTO(BaseModel):
     parent_full_name: str
     child_full_name: str
     school_number: str
+    city: str | None
     class_number: int
     class_label: str
     phone: str

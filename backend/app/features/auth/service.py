@@ -42,6 +42,7 @@ async def register_user(db: AsyncSession, data: RegisterRequestDTO) -> tuple[Use
         parent_full_name=data.parent_full_name,
         child_full_name=data.child_full_name,
         school_number=data.school_number,
+        city=data.city,
         class_number=data.class_number,
         class_label=data.class_label,
         phone=data.phone,
