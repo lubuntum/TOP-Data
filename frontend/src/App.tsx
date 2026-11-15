@@ -91,7 +91,7 @@ const AppContent = () => {
       <footer className='app-footer text-muted'>
         <div className='container footer-content'>
           <div className='footer-section'>
-            <p className="font-medium text-main mb-1">Профориентационное тестирование проводится Академией ТОП при поддержке Управления образования г. Абакана в рамках образовательной программы по профессиональной ориентации школьников. </p>
+            <p className="font-medium text-main mb-1">Профориентационное тестирование проводится Академией ТОП г. Абакана в рамках образовательной программы по профессиональной ориентации школьников. </p>
           </div>
           <div className='footer-section'>
             <p className='font-medium text-main mb-1'>Приемная "Компьютернная "Академия ТОП"</p>
