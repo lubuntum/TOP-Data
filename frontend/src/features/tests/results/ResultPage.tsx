@@ -79,6 +79,16 @@ export const ResultPage = () => {
             <div className="result-body">
                 {interpretation ? (
                     <>
+                        <div className="result-section">
+                            <h3 className="section-title">Поздравляем тест пройден!</h3>
+                            <p className="text-muted leading-relaxed">Вы сделали первый шаг к профессии мечты. 
+                                Мы уже проанализировали ответы - и ваши результаты содержат гораздо больше, чем просто список подходящих направлений!
+                            </p>
+                            <p className="text-muted leading-relaxed">
+                                То, что вы видите на экране - лишь верхушка айсберга. 
+                                Для получения развернутой расшифровки и персональных рекомендаций от экспертов обращаться по телефону <a href="tel:83902215354">8 (3902) 21-53-54</a>
+                            </p>
+                        </div>
                         {/*1. Description*/}
                         <div className="result-section">
                             <h3 className="section-title">Описание</h3>
