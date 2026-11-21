@@ -33,6 +33,7 @@ from app.core.database.database import Base
 #Models
 from app.core.database.entities.user_entity import UserEntity
 from app.core.database.entities.test_result_entity import TestResultEntity
+from app.core.database.entities.admin_entity import AdminEntity
 target_metadata = Base.metadata
 # other values from the config, defined by the needs of env.py,
 # can be acquired:

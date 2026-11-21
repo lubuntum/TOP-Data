@@ -38,7 +38,7 @@ async def login(
 ):
     try:
         user = await service.authenticate_user(db, data)
-        token = create_token({"sub": str(user.id)})
+        token = create_token({"sub": str(user.id), "role": "user"})
 
         response.set_cookie(
             key="access_token",

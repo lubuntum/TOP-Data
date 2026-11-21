@@ -7,6 +7,7 @@ from app.core.database.database import Base, engine
 from app.config import get_settings
 from app.features.auth.router import router as auth_router
 from app.features.tests.router import router as tests_router
+from app.features.admin.router import router as admin_router
 
 settings = get_settings()
 """
@@ -38,5 +39,9 @@ app.include_router(
 )
 app.include_router(
     tests_router,
+    prefix="/api/v1"
+)
+app.include_router(
+    admin_router,
     prefix="/api/v1"
 )
