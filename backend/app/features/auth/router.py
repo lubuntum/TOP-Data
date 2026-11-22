@@ -1,10 +1,12 @@
 from typing import Annotated
-from fastapi import APIRouter, Depends, HTTPException, Response, status
+from fastapi import APIRouter, Depends, HTTPException, Response, status, Cookie
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.database.database import get_db
+from app.core.database.entities.admin_entity import AdminEntity
 from app.core.dependencies import get_current_user
-from app.core.security import create_token
+from app.core.security import create_token, decode_token
 from app.core.database.entities.user_entity import UserEntity
 from app.features.auth import service
 from app.features.auth.dto import (
@@ -51,7 +53,7 @@ async def login(
         return LoginResponseDTO(user_id=user.id, child_full_name=user.child_full_name)
     except ValueError as e:
         raise HTTPException(status_code=401, detail=str(e))
-
+#deprecated method (/session as an perlacement)
 @router.get("/me", response_model=UserProfileDTO)
 async def get_me(
         current_user: Annotated[UserEntity, Depends(get_current_user)]):
@@ -76,3 +78,28 @@ async def reset_password(
         )
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
+#Method which cover admin and user sessions control (replace for me)
+@router.get("/session")
+async def get_session(
+        db: Annotated[AsyncSession, Depends(get_db)],
+        access_token: Annotated[str | None, Cookie()] = None
+):
+    if not access_token:
+        raise HTTPException(status_code=401, detail="Not authorize")
+    payload = decode_token(access_token)
+    if not payload:
+        raise HTTPException(status_code=401, detail="Token is not valid")
+    role = payload.get("role")
+    user_id = payload.get("sub")
+    if role == "admin":
+        admin = await db.scalar(select(AdminEntity).where(AdminEntity.id == user_id))
+        if not admin:
+            raise HTTPException(detail="Admin not found")
+        return {"role": "admin", "login": admin.login}
+    elif role == "user":
+        user = await db.scalar(select(UserEntity).where(UserEntity.id == user_id))
+        if not user:
+            raise HTTPException(status_code=401, detail="User not found")
+        return {"role": "user", "profile": UserProfileDTO.model_validate(user)}
+    else:
+        return HTTPException(status_code=401, detail="Unknown role")
