@@ -4,13 +4,14 @@ import { RegisterForm } from './features/auth/RegisterForm'
 import { LoginForm } from './features/auth/LoginForm';
 import { Profile } from './features/profile/Profile';
 import { AuthProvider, useAuth } from './context/AuthContext';
-import { ProtectedRoute, PublicRoute } from './routes/Routes';
+import { AdminPublicRoute, AdminRoute, ProtectedRoute, PublicRoute } from './routes/Routes';
 import { Tests } from './features/tests/Tests';
 import { TestEngine } from './features/tests/engine/TestEngine';
 import { ResultPage } from './features/tests/results/ResultPage';
 import { useState } from 'react';
 import { LogoSwitcher } from './components/LogoSwitcher';
 import { ResetPasswordForm } from './features/auth/ResetPasswordForm';
+import { AdminPanel } from './features/admin/AdminPanel';
 
 const AppContent = () => {
   const {user, logout} = useAuth()
@@ -71,16 +72,26 @@ const AppContent = () => {
       {/* Рабочая область */}
       <main className="app-main flex justify-center items-center pt-10">
         <Routes>
+          {/**For anyone */}
           <Route element={<PublicRoute/>}>
-            <Route path="/login" element={<LoginForm />} />
+            <Route path="/login" element={<LoginForm loginUrl={'/auth/login'} navigateUrl='/profile' />} />
             <Route path="/register" element={<RegisterForm />} />
             <Route path="/reset-password" element={<ResetPasswordForm/>} />
           </Route>
+          {/*For authorised users*/}
           <Route element={<ProtectedRoute/>}>
             <Route path='/profile' element={<Profile/>}/>
             <Route path="/tests" element={<Tests />} />
             <Route path='/test/:testCode' element={<TestEngine/>} />
             <Route path='/result/:resultId' element={<ResultPage/>} />
+          </Route>
+          {/*Admin enter*/}
+          <Route element={<AdminPublicRoute />}>
+            <Route path='/admin/login' element={<LoginForm loginUrl={'/admin/login'} navigateUrl={'/admin/panel'} />} />
+          </Route>
+          {/* Only for admin*/}
+          <Route element={<AdminRoute/>}>
+            <Route path='/admin/panel' element={<AdminPanel/>} />
           </Route>
               
           <Route path="/" element={<Navigate to="/profile" replace />} />

@@ -14,6 +14,7 @@ interface UserProfile {
 
 interface AuthContextType {
     user: UserProfile | null
+    isAdmin: boolean
     loading: boolean
     checkAuth: () => Promise<void>
     logout: () => Promise<void>
@@ -24,14 +25,24 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
 export const AuthProvider = ({children}: {children: React.ReactNode}) => {
     const [user, setUser] = useState<UserProfile | null>(null)
+    const [isAdmin, setIsAdmin] = useState<boolean>(false)
     const [loading, setLoading] = useState<boolean>(true)
 
     const checkAuth = async () => {
         try{
-            const res = await apiClient.get("/auth/me")
-            setUser(res.data)
+            //const res = await apiClient.get("/auth/me")
+            const res = await apiClient.get("/auth/session")
+            console.log(res.data.profile)
+            if (res.data.role === "admin"){
+                setIsAdmin(true)
+                setUser(null)
+            } else if (res.data.role === "user"){
+                setUser(res.data.profile)
+                setIsAdmin(false)
+            }
         } catch(err) {
             setUser(null)
+            setIsAdmin(false)
         } finally {
             setLoading(false)
         }
@@ -44,9 +55,10 @@ export const AuthProvider = ({children}: {children: React.ReactNode}) => {
             await apiClient.post('/auth/logout')
         } finally {
             setUser(null)
+            setIsAdmin(false)
         }
     }
-    return (<AuthContext.Provider value={{user, loading, checkAuth, logout, setUser}}>
+    return (<AuthContext.Provider value={{user, isAdmin, loading, checkAuth, logout, setUser}}>
         {!loading && children}
     </AuthContext.Provider>)
 }

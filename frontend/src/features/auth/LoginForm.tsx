@@ -1,4 +1,4 @@
-import {z} from "zod"
+import {string, z} from "zod"
 import {useState} from 'react'
 import { Link, useNavigate } from "react-router-dom"
 import { useForm } from "react-hook-form"
@@ -10,8 +10,11 @@ const loginSchema = z.object({
     password: z.string().min(1, "Введите пароль")
 })
 type FormData = z.infer<typeof loginSchema>
-
-export const LoginForm = () => {
+interface LoginFormProps  {
+    loginUrl: string
+    navigateUrl: string
+}
+export const LoginForm = ({loginUrl, navigateUrl} : LoginFormProps) => {
     const [error, setError] = useState<string | null>(null)
     const [clipboardMsg, setClipboardMsg] = useState<string | null>(null)
 
@@ -22,9 +25,9 @@ export const LoginForm = () => {
     const onSubmit = async (data: FormData) => {
         setError(null)
         try{
-            await apiClient.post('/auth/login', data)
+            await apiClient.post(loginUrl, data)
             await checkAuth()
-            navigate('/profile')
+            navigate(navigateUrl)
         } catch(err: any) {
             setError('Неверный логин или пароль')
         }

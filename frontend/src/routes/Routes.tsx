@@ -1,11 +1,31 @@
-import { Navigate, Outlet } from "react-router-dom"
+import { Navigate, Outlet, replace } from "react-router-dom"
 import { useAuth } from "../context/AuthContext"
+import { useState } from "react"
 
 export const ProtectedRoute = () => {
-    const {user} = useAuth()
-    return user ? <Outlet/> : <Navigate to="/login" replace />
+    const {user, isAdmin} = useAuth()
+    if (user) return <Outlet/>
+    if (isAdmin) return <Navigate to={"/admin/panel"} replace />
+    return <Navigate to={"/login"} />
 }
 export const PublicRoute = () => {
-    const {user} = useAuth()
-    return !user ? <Outlet/> : <Navigate to="/profile" replace />
+    const {user, isAdmin} = useAuth()
+    if (user) return <Navigate to={"/profile"} replace />
+    if (isAdmin) return <Navigate to={"/admin/panel"} replace />
+    return <Outlet />
+}
+export const AdminRoute = () => {
+    const {user, isAdmin} = useAuth()
+
+    if (isAdmin) return <Outlet />
+    if (user) return <Navigate to={"/profile"} replace />
+
+    return <Navigate to={"/login"} replace />
+    
+}
+export const AdminPublicRoute = () => {
+    const {user, isAdmin} = useAuth()
+    if (isAdmin) return <Navigate to={"/admin/panel"} replace />
+    if (user) return <Navigate to="/profile" replace />
+    return <Outlet />
 }
