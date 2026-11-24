@@ -14,7 +14,7 @@ import { ResetPasswordForm } from './features/auth/ResetPasswordForm';
 import { AdminPanel } from './features/admin/AdminPanel';
 
 const AppContent = () => {
-  const {user, logout} = useAuth()
+  const {user, isAdmin, logout} = useAuth()
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false)
 
   const closeMenu = () => setIsMenuOpen(false)
@@ -61,6 +61,24 @@ const AppContent = () => {
               </NavLink>
               <NavLink to="/login" 
                 onClick={() => logout()}
+                className="text-muted hover:text-primary">
+                Выход
+              </NavLink>
+            </nav>
+          </>
+        )}
+        {isAdmin && (
+          <>
+            <button
+              className='mobile-menu-btn'
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label='Открыть меню'>
+              {isMenuOpen ? '✕' : '☰'}
+            </button>
+            <nav className={`app-nav ${isMenuOpen ? 'open' : ''}`}>
+              <NavLink 
+                to="/admin/login"
+                onClick={() => logout() }
                 className="text-muted hover:text-primary">
                 Выход
               </NavLink>
