@@ -20,7 +20,7 @@ export const AdminRoute = () => {
     if (isAdmin) return <Outlet />
     if (user) return <Navigate to={"/profile"} replace />
 
-    return <Navigate to={"/login"} replace />
+    return <Navigate to={"/admin/login"} replace />
     
 }
 export const AdminPublicRoute = () => {
