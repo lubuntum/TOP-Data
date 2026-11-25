@@ -1,6 +1,5 @@
 import { useState, type ChangeEvent } from "react"
 import { apiClient } from "../../api/client"
-import { tr } from "zod/locales"
 import type { UserExport } from "./types"
 import { exportToExcel } from "../../utility/exportToExcel"
 export const AdminPanel = () => {
